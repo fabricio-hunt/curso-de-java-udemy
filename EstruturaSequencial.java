@@ -1,4 +1,5 @@
 import java.util.Locale;
+import java.text.NumberFormat;
 
 public class EstruturaSequencial {
     public static void main(String[] args) {
@@ -18,21 +19,28 @@ public class EstruturaSequencial {
         -----------------------------------------------
          */
 
-        /* Saída de Dados */
+        /* Aula Saída de Dados */
 
         String nome = "Jonas de Sá";
         int idade = 31;
         double matricula = 10.35784;
-        float renda = 4.500f;
-        Locale locale = new Locale("pt", "BR");
+        float renda = 4500.00f;
 
+        // Configura a formatação numérica para ponto decimal
+        NumberFormat numberFormat = NumberFormat.getInstance(Locale.US);
 
+        // Configura a formatação de moeda para BRL
+        NumberFormat currencyFormat = NumberFormat.getCurrencyInstance(new Locale("pt", "BR"));
 
-        System.out.println("-------------------Seu Contracheque-----------------");
-        System.out.printf("Olá %s, sua idade é: %d anos, sua matricula é: %f e sua renda é: R$ %f reais%n", nome, idade, matricula, renda);
+        System.out.println("----------------Seu Contracheque----------------");
+        System.out.printf("Olá %s, sua idade é: %d anos, sua matrícula é: %s e sua renda é: %s%n",
+                nome, idade,
+                numberFormat.format(matricula),
+                currencyFormat.format(renda));
+    }
 
     }
-}
+
 
 
 
