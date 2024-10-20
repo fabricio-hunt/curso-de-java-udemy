@@ -1,6 +1,3 @@
-import java.text.NumberFormat;
-import java.util.Locale;
-
 public class ExercicioSaidaDeDados {
     public static void main(String[] args) {
 
@@ -21,7 +18,7 @@ public class ExercicioSaidaDeDados {
         /*NumberFormat numberFormat = NumberFormat.getInstance(Locale.US);*/
 
         // Configura a formatação de moeda para BRL
-        NumberFormat currencyFormat = NumberFormat.getCurrencyInstance(new Locale("pt", "BR"));
+        // NumberFormat currencyFormat = NumberFormat.getCurrencyInstance(new Locale("pt", "BR"));
 
         System.out.println("Products: ");
         System.out.println( product1 + ", which price is $" + prince1);
