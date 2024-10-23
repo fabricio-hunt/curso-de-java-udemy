@@ -19,10 +19,15 @@ public class EntradaDeDados {
         System.out.println("Digite um texto:");
         String texto = scanner.nextLine();
 
+        scanner.nextLine();
+        System.out.println("Digite um resumo do assunto: ");
+        String resumo = scanner.nextLine();
+
         // Exibindo os dados lidos
         System.out.println("Número inteiro: " + numero);
         System.out.println("Número decimal: " + decimal);
         System.out.println("Texto: " + texto);
+        System.out.println( "Este é o seu resumo " + resumo);
 
         // Fechando o Scanner
         scanner.close();
