@@ -19,7 +19,7 @@ public class EntradaDeDados {
         System.out.println("Digite um texto:");
         String texto = scanner.nextLine();
 
-        scanner.nextLine();
+       // scanner.nextLine();
         System.out.println("Digite um resumo do assunto: ");
         String resumo = scanner.nextLine();
 

@@ -22,6 +22,7 @@ public class EstruturaSequencial {
         /* Aula Saída de Dados */
 
         String nome = "Jonas de Sá";
+        String setor = "Estoque";
         int idade = 31;
         double matricula = 10.35784;
         float renda = 4500.00f;
@@ -37,6 +38,7 @@ public class EstruturaSequencial {
                 nome, idade,
                 numberFormat.format(matricula),
                 currencyFormat.format(renda));
+        System.out.println("Setor de trabalho: " + setor);
     }
 
     }
