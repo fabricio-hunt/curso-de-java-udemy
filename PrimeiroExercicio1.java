@@ -5,8 +5,9 @@ public class PrimeiroExercicio1 {
 
         int primeiroNumero = 1500;
         int segundoNumeroInteiro = 150;
+        int terCeiroNumeroInteiro = 630;
 
-        int soma = (primeiroNumero + segundoNumeroInteiro);
+        int soma = (primeiroNumero + segundoNumeroInteiro + terCeiroNumeroInteiro);
 
         System.out.println("A soma entre os dois números inteiros é: " + soma);
     }
