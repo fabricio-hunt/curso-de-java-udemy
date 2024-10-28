@@ -12,8 +12,5 @@ public class PrimeiroExercicio1 {
         System.out.println("A soma entre os dois números inteiros é: " + soma);
 
 
-
-
-
     }
 }
