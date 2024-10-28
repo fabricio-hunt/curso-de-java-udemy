@@ -10,5 +10,13 @@ public class PrimeiroExercicio1 {
         int soma = (primeiroNumero + segundoNumeroInteiro + terCeiroNumeroInteiro);
 
         System.out.println("A soma entre os dois números inteiros é: " + soma);
+
+
+        /*  Faça um programa para ler o valor do raio de um círculo, e depois mostrar o valor da área deste círculo com quatro
+            casas decimais conforme exemplos.  */
+
+        double pi = 3.14159;
+
+
     }
 }
