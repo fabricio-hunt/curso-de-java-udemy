@@ -16,10 +16,10 @@ e) a área do retângulo que tem lados A e B. */
         System.out.println("Digite o valor 1: ");
         double a = scanner.nextDouble();
 
-        System.out.println("Digite o valor 2:");
+        System.out.println("Digite o valor 2: ");
         double b = scanner.nextDouble();
 
-        System.out.println("Digite o valor 3:");
+        System.out.println("Digite o valor 3: ");
         double c = scanner.nextDouble();
 
         System.out.println("Triângulo: " + (a * c)/2);
