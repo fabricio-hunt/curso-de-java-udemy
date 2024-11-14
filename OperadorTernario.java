@@ -7,11 +7,15 @@ public class OperadorTernario {
         // variavel = (condição) ? valorSeVerdadeiro : valorSeFalso;
 
         int idade = 19;
-        String mensagem;
+        String mensagem, aviso;
+
+        int dia = 3;
 
         // Usando o operador ternário
         mensagem = (idade >= 18) ? "Maior de idade" : "Menor de idade";
-
         System.out.println(mensagem); // Saída: Maior de idade
+
+        aviso = (dia == 5) ? "Terça Feira": "Dia errado";
+        System.out.println(aviso);
     }
 }
