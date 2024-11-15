@@ -15,7 +15,7 @@ public class OperadorTernario {
         mensagem = (idade >= 18) ? "Maior de idade" : "Menor de idade";
         System.out.println(mensagem); // Saída: Maior de idade
 
-        aviso = (dia == 5) ? "Terça Feira": "Dia errado";
+        aviso = (dia == 3) ? "Terça Feira": "Dia errado";
         System.out.println(aviso);
     }
 }
