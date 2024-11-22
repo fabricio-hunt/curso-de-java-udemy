@@ -1,4 +1,4 @@
-public class TesteDeMesa {
+/* public class TesteDeMesa {
     public static void main(String[] args) {
         /*O teste de mesa é uma técnica utilizada para simular a execução de um programa ou algoritmo "manualmente",
         ou seja, sem o uso de um computador. É uma forma de acompanhar o passo a passo do fluxo de execução do código,
@@ -14,8 +14,7 @@ Leia o código linha a linha, simulando a execução e preenchendo a tabela.
 
 Atualize os valores das variáveis conforme o fluxo do programa.
 
-Registre a saída sempre que o programa exibir algo (ex.: System.out.println()).    */
-
+Registre a saída sempre que o programa exibir algo (ex.: System.out.println()).
         public class TesteDeMesa {
             public static void main(String[] args) {
                 int a = 5;
@@ -31,3 +30,4 @@ Registre a saída sempre que o programa exibir algo (ex.: System.out.println()).
 
     }
 }
+*/
