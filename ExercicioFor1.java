@@ -7,19 +7,23 @@ public class ExercicioFor1 {
 
         Scanner scanner = new Scanner(System.in);
 
-        //entrada de dados
-        System.out.println("Digite o valor de X: ");
+        System.out.println("Digite um número inteiro (1 <= X <= 1000): " );
         int x = scanner.nextInt();
 
-        for(;;){
-            System.out.println("xxx");
+        if (x < 1 || x > 1000){
+            System.out.println("O número deve estar entre 1 e 1000.");
+        } else {
+            for(int i = 1; i <= x; i++){
+                if( i % 2 != 0){
+                    System.out.println(i);
 
+                }
+
+            }
         }
-
-        //saida da condição
-
+            scanner.close();
+        }
     }
 
-}
 
 
