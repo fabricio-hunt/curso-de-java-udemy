@@ -34,7 +34,7 @@ O curso inclui exercícios resolvidos e propostos, além de projetos práticos q
 ## Requisitos
 - Conhecimento básico de lógica de programação (variáveis, condicionais e laços)
 - Computador com suporte à versão atual do Java
-- Disposição para aprender e praticar matemática básica aplicada em exemplos do curso
+- Disposição para aprender e praticar matemática básica aplicada em exemplos do curso.
 
 ## Público-Alvo
 - Estudantes de computação
