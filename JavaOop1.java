@@ -53,7 +53,7 @@ class Zoologico {
 }
 
 // Classe principal para execução
-public class OrientacaoObjetos {
+public class JavaOop1 {
     public static void main(String[] args) {
         // Instanciação de objetos
         Cachorro cachorro = new Cachorro("Rex");
