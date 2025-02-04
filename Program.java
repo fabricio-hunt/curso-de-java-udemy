@@ -16,6 +16,8 @@ public class Program {
         System.out.print("Quantity in stock: ");
         product.quantity = scanner.nextInt();
 
+        System.out.println(product);
+
 
         scanner.close();
 
